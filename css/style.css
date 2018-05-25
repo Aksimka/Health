@@ -1,0 +1,150 @@
+
+
+.al {
+  margin-top: px;
+  width: 50px; }
+
+.carousel slide {
+  width: 500px;
+  height: 500px; }
+
+.choice {
+  background-color: #222222;
+  text-align: center;
+  height: 150px; }
+  .choice .choiceh1 {
+    padding-top: 30px;
+    display: block;
+    margin-top: 0px;
+    color: white;
+    font: 50px Verdana;
+    vertical-align: center; }
+
+.hiden {
+  opacity: 0; }
+
+.visibl {
+  opacity: 1; }
+
+.bc {
+  font-size: 20px;
+  background-color: #222222; }
+  .bc li a {
+    color: white; }
+  .bc li a:hover {
+    text-decoration: none; }
+
+.navbar {
+  border: 0px;
+  border-radius: 0px;
+  opacity: 1;
+  z-index: 2;
+  position: relative; }
+
+.navbar.fixed {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  opacity: 1;
+  z-index: 2;
+  background-color: #222222; }
+
+#main {
+  font-size: 20px;
+  padding-top: 40px;
+  z-index: 1; }
+  #main img {
+    width: 500px;
+    height: 350px; }
+
+.tabs {
+  display: none; }
+
+.tabs1 {
+  display: none; }
+
+#tab-1 ul {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 30px; }
+  #tab-1 ul p {
+    display: none; }
+  #tab-1 ul li {
+    padding-top: 10px;
+    cursor: pointer; }
+  #tab-1 ul li:hover {
+    text-decoration: underline; }
+
+#tab-2 ul {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 30px; }
+#tab-2 li {
+  padding-top: 10px; }
+
+#tab-3 ul {
+  list-style: none;
+  width: 100%;
+  margin-bottom: 30px; }
+#tab-3 li {
+  padding-top: 10px; }
+
+blockquote {
+  margin: 0;
+  margin-top: 40px;
+  background: white;
+  border-top: 5px solid #EAF9F9;
+  border-bottom: 5px solid #EAF9F9;
+  color: #3A3C55;
+  padding: 30px 30px 30px 90px;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+blockquote:before {
+  content: "\201C";
+  font-family: serif;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: white;
+  background: #FB6652;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 50px;
+  line-height: 1.35;
+  text-align: center; }
+
+blockquote p {
+  margin: 0 0 16px;
+  font-size: 22px;
+  letter-spacing: .05em;
+  line-height: 1.4; }
+
+blockquote cite {
+  font-style: normal; }
+
+#footer {
+  height: 170px;
+  background-color: #222222;
+  color: white;
+  vertical-align: middle; }
+
+#vk {
+  color: white; }
+
+#vk:hover {
+  color: #FB6753;
+  cursor: pointer; }
+
+@media screen and (max-width: 540px) {
+  #main img {
+    width: 350px;
+    height: 200px; }
+  
+  .navbar{
+    height:110px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
